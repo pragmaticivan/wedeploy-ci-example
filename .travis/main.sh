@@ -30,7 +30,7 @@ setup_machine() {
 }
 
 install_packages() {
-  cd api && npm install -g npm@latest && npm install
+  npm install -g npm@latest && npm install
 }
 
 deploy() {
