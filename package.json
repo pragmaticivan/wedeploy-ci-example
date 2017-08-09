@@ -1,0 +1,23 @@
+{
+  "name": "wedeploy-ci-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "magnet",
+    "start": "magnet build && magnet start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pragmaticivan/wedeploy-ci-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pragmaticivan/wedeploy-ci-example/issues"
+  },
+  "homepage": "https://github.com/pragmaticivan/wedeploy-ci-example#readme",
+  "dependencies": {
+    "magnet": "^1.1.1"
+  }
+}
