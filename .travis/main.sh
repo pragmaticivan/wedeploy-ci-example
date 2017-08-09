@@ -26,7 +26,7 @@ main() {
 
 setup_machine() {
   echo "Installing WeDeploy Command-line"
-  curl https://cdn.wedeploy.com/cli/latest/wedeploy.sh -sL | bash
+  curl https://cdn.wedeploy.com/cli/latest/wedeploy.sh -sL | sudo bash
 }
 
 install_packages() {
