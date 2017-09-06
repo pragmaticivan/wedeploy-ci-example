@@ -1,7 +1,7 @@
 #!/bin/bash
 
-set -o errexit
-set -o xtrace
+# set -o errexit
+# set -o xtrace
 
 main() {
   case $1 in
