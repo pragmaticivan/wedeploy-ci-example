@@ -27,6 +27,7 @@ main() {
 setup_machine() {
   echo "Installing WeDeploy Command-line"
   curl https://cdn.wedeploy.com/cli/latest/wedeploy.sh -sL | sudo bash
+  we update --channel=unstable
 }
 
 install_packages() {
@@ -35,6 +36,8 @@ install_packages() {
 
 deploy() {
   echo "Deploying to wedeploy"
+  echo $AUTH_TOKEN | we login
+  we deploy -p ciexample
 }
 
 main "$@"
